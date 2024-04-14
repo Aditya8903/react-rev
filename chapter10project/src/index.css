@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+.colorBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Set desired height */
+}
+
+.colorBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Set desired width */
+  height: 200px; /* Set desired height */
+  border: 2px solid #000; /* Set border properties */
+}
