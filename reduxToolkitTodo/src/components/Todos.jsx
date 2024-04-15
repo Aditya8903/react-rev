@@ -15,7 +15,7 @@ const Todos = () => {
   };
 
   const handleEditSubmit = (id) => {
-    dispatch(updateTodo({ id, newText: editInput }));
+    dispatch(updateTodo({ id, text: editInput }));
     setEditInput(""); // Clear input field after update
     setEditId(null); // Clear edit ID
   };
